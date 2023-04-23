@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# 🥗냉털 레시피🥗
+ ChatGPT가 알려주는 냉장고 털이 레시피
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 서비스 소개 
+냉장고에 있는 재료들을 입력하면, 만들 수 있는 요리 레시피를 생성해 주는 어플리케이션
+## 제안 배경
+#### “요리를 입력해 재료와 레시피를 찾는 것은 쉽지만, 재료를 입력해 레시피를 찾는 것은 굉장히 어렵다!!!”
+최근 비대면 시대 분위기에 따라 집에서 요리를 하는 사람들이 늘어나면서 레시피에 대한 고민이 늘어나고 있다, 특히, 냉장고에 있는 재료들이 한정돼 있거나, 유통기한이 가까운 재료들을 처리해야 할 때는 고민이 더욱 가중된다. 이를 해결하기 위해 ChatGPT API를 사용한 레시피 생성 서비스를 기획하였다.
+## 서비스 구조
+<img width="90%" src="https://user-images.githubusercontent.com/103584654/233842686-e84cbf80-65dd-46ff-ac0b-fbadb0be1105.png"/>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 기술 스택
+* Frontend : HTML, CSS, React
+* Distribution : AWS 
+* API : ChatGPT API, Kakao ImgeSearch API
+## 기대 효과 
+- 가지고 있는 재료로 만들 수 있는 레시피를 제공함으로써 요리에 대한 걱정과 고민을 덜어준다.
+- 적절한 영양성을 고려한 요리 레시피 추천으로 건강한 식사를 유도한다.
+- 제때 사용하지 않아 버려지는 음식물 쓰레기 양을 줄일 수 있다.
+## 아쉬운 점
+- ChatGPT-4 에서는 프롬프트 출력 결과가 군더더기 없이 깔끔한 것을 확인하였으나, 서비스에 연동한 ChatGPT-3.5 버전에서는 가끔씩 꾸며주는 문장들이 함께 생성되는 경우가 있다. 추후 4 버전으로 API 교체 예정이다. 
+- ChatGPT 모델의 출력 속도에 따라 레시피 생성에 시간이 오래 걸린다는 것이 큰 단점이다. 
+- 초기 기획단계에서는 여러 가지 기능들을 구상했지만 개발 기간의 한계로 인해 필수 기능만 구현하였다. 추후 로그인 기능과 DB를 추가해, 재료 저장 및 레시피 즐겨찾기 등을 추가 구현할 예정이다.
