@@ -87,7 +87,7 @@ const RecipeDetailModalMobile = props => {
           backgroundColor: 'rgba(0, 0, 0, 0.3)'
         }
       }}
-      className=' font-noto outline-none shadow-xl absolute z-50 p-16 text-center -translate-x-1/2 -translate-y-1/2 bg-white w-5/6 rounded-2xl h-3/4 top-1/2 left-1/2 '
+      className=' font-noto outline-none shadow-xl absolute z-50 p-16 text-center -translate-x-1/2 -translate-y-1/2 bg-white w-5/6 rounded-2xl h-5/6 top-1/2 left-1/2 '
       isOpen={true} ariaHideApp={false}>
 
       {loading ?
