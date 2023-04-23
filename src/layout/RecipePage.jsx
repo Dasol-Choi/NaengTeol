@@ -169,7 +169,7 @@ const RecipePage = () => {
                 <div className='w-full h-full overflow-x-hidden overflow-y-auto '>
                   {recipeList}
                 </div>
-                <button className='mt-14 bg-gradient-to-r from-ourgreen to-ourgreenlight w-full p-3 text-xl font-notoBold text-white rounded-md outline-none' onClick={toBack}>다시 재료 입력하기</button>
+                <button className='mt-14 mb-10 bg-gradient-to-r from-ourgreen to-ourgreenlight w-full p-3 text-xl font-notoBold text-white rounded-md outline-none' onClick={toBack}>다시 재료 입력하기</button>
 
               </div>
               :

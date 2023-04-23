@@ -96,7 +96,7 @@ const RecipeDetailModalMobile = props => {
             <img className='w-10 h-10 hover:cursor-pointer  '
               src='./images/close.png' alt='닫기' onClick={() => props.setModalIsOpen(false)}></img>
           </div>
-          <h1 className='text-5xl font-notoBold mt-60 mb-10'>ChatGPT가 열심히 <br></br>레시피를 생성중입니다</h1>
+          <h1 className='text-5xl font-notoBold mt-52 mb-10'>ChatGPT가 열심히 <br></br>레시피를 생성중입니다</h1>
           <h1 className='text-3xl font-noto mb-28 text-slate-400'>시간이 걸릴 수 있으니 조금만 기다려 주세요</h1>
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
           <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_MSBoM4TP3p.json" background="transparent" speed="1"
@@ -115,7 +115,7 @@ const RecipeDetailModalMobile = props => {
               {recipeDetail.map((str,index) => (<p className='text-4xl text-left' key={index}>{str}<br></br></p>))}
             </div>
           </ScrollDiv>
-          <div className='w-full h-4 bg-gray-200 mt-10 mb-10'></div>
+          <div className='w-full h-4 bg-gray-200 mt-10 mb-8'></div>
           <div className='w-full h-1/6 text-center  font-notoBold  border-ourgraylight'>
             <img id='kakaotalk-sharing-btn' onClick={sendKakao} alt='카카오톡 공유하기'
               className='rounded-full h-3/5 m-auto '

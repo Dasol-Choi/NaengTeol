@@ -55,7 +55,7 @@ const IngredientPageMobile = () => {
     ));
 
     return (
-        <div className=' w-full text-center p-10 pt-36 pb-36  h-screen bg-white'>
+        <div className=' w-full text-center p-10 pt-32 pb-32  h-screen bg-white'>
             <div className='flex justify-between mt-10 mb-20'>
                 <img src='./images/morethan.png' alt='뒤로 가기' className='w-7 hover:cursor-pointer' onClick={toBack}></img>
                 <img src='./images/home.png' alt='처음페이지로 가기' className='w-14 h-14 hover:cursor-pointer' onClick={toHome}></img>

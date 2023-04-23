@@ -115,7 +115,7 @@ const RecipeDetailModal = props => {
               {recipeDetail.map((str,index) => (<p className='text-left' key={index}>{str}<br></br></p>))}
             </div>
           </ScrollDiv>
-          <div className='w-full h-1/6 text-center pt-5 font-notoBold border-t-8 border-ourgraylight'>
+          <div className='w-full h-1/6 text-center pt-3 font-notoBold border-t-8 border-ourgraylight'>
             <img id='kakaotalk-sharing-btn' onClick={sendKakao} alt='카카오톡 공유하기'
               className='rounded-full h-2/3 m-auto '
               src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" />

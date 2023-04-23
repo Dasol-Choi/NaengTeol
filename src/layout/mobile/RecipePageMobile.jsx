@@ -134,7 +134,7 @@ const RecipePageMobile = () => {
 
 
   return (
-    <div className='text-center p-10 pt-36 pb-36 w-full h-screen font-noto bg-white'>
+    <div className='text-center p-10 pt-32 pb-32 w-full h-screen font-noto bg-white'>
       <div className='flex justify-between mt-10 mb-20'>
         <img src='./images/morethan.png' alt='뒤로 가기' className='w-7 hover:cursor-pointer' onClick={toBack}></img>
         <img src='./images/home.png' alt='처음페이지로 가기' className='w-14 h-14 hover:cursor-pointer' onClick={toHome}></img>
@@ -158,7 +158,7 @@ const RecipePageMobile = () => {
                 <div className='w-full h-full overflow-x-hidden overflow-y-auto '>
                   {recipeList}
                 </div>
-                <button className='mt-20 bg-gradient-to-r from-ourgreen to-ourgreenlight w-full p-8 text-4xl font-notoBold text-white rounded-xl outline-none' onClick={toBack}>다시 재료 입력하기</button>
+                <button className='mt-20 mb-10 bg-gradient-to-r from-ourgreen to-ourgreenlight w-full p-8 text-4xl font-notoBold text-white rounded-xl outline-none' onClick={toBack}>다시 재료 입력하기</button>
 
               </div>
               :
