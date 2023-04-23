@@ -95,7 +95,8 @@ const RecipeDetailModal = props => {
             <img className='w-5 h-5 hover:cursor-pointer  '
               src='./images/close.png' alt='닫기' onClick={() => props.setModalIsOpen(false)}></img>
           </div>
-          <h1 className='text-3xl font-notoBold mt-28 mb-10'>뚝딱뚝딱<br></br>레시피를 생성중이에요!</h1>
+          <h1 className='text-2xl font-notoBold mt-28 mb-3'>ChatGPT가 열심히 <br></br>레시피를 생성중입니다</h1>
+          <h1 className='text-md text-slate-400 font-noto mb-10'>시간이 걸릴 수 있으니 조금만 기다려 주세요</h1>
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
           <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_MSBoM4TP3p.json"
             className='m-auto block'

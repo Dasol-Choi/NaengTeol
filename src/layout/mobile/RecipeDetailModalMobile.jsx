@@ -36,7 +36,7 @@ const RecipeDetailModalMobile = props => {
 
   useEffect(() => {
     search2();
-  },[] )
+  },[])
 
 
   useEffect(() => {
@@ -96,7 +96,8 @@ const RecipeDetailModalMobile = props => {
             <img className='w-10 h-10 hover:cursor-pointer  '
               src='./images/close.png' alt='닫기' onClick={() => props.setModalIsOpen(false)}></img>
           </div>
-          <h1 className='text-6xl font-notoBold mt-60 mb-28'>뚝딱뚝딱<br></br>레시피를 생성중이에요!</h1>
+          <h1 className='text-5xl font-notoBold mt-60 mb-10'>ChatGPT가 열심히 <br></br>레시피를 생성중입니다</h1>
+          <h1 className='text-3xl font-noto mb-28 text-slate-400'>시간이 걸릴 수 있으니 조금만 기다려 주세요</h1>
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
           <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_MSBoM4TP3p.json" background="transparent" speed="1"
             style={{ height: 550 }} loop autoplay></lottie-player>
