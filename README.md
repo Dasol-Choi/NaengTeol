@@ -1,6 +1,8 @@
 # 🥗냉털 레시피🥗
- ChatGPT가 알려주는 냉장고 털이 레시피
-
+ ChatGPT가 알려주는 냉장고 털이 레시피 
+ <br><br>
+ <img width="100%" src="https://user-images.githubusercontent.com/103584654/233947944-3af285b5-f295-4717-af2d-61eb0575496b.png"/>
+<br><br>
 ## 서비스 소개 
 냉장고에 있는 재료들을 입력하면, 만들 수 있는 요리 레시피를 생성해 주는 어플리케이션
 ## 제안 배경
